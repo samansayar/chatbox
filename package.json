@@ -1,0 +1,29 @@
+{
+  "name": "microtik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server/app.js localhost 3005",
+    "ui": "npx tailwindcss -i ./public/tailwind.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "samansayar",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prisma": "^4.10.1",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.20",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  }
+}
